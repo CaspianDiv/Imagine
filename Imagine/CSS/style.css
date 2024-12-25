@@ -1,0 +1,43 @@
+/* .navbar-brand {padding: 0 40% 0 0; } */
+#hero{padding: 100px 0;}
+#hero img{
+    width: 100%;
+}
+#menu li a{
+    padding: 15px 20px;
+}
+#menu{
+    padding: 0 0 0 50%;
+}
+#hero h1{
+    font: 700 2em Nunito,sans-serif;
+    text-transform: capitalize;
+}
+#hero p{
+    font: 300 1em "Nunito",sans-serif;
+    color: #6c757d;
+
+}
+.hero-button button{
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background: #4285F4;
+    color: #fff;
+    font: .9em "Nunito",sans-serif;
+    text-align: center;
+    border: 1px solid #4285F4;
+    transition: 250ms all;
+}
+.hero-button button:hover{
+    background: #fff;
+    color: #4285F4;
+}
+.hero-button{padding: 30px 0 0 0;}
+@media only screen and (min-width: 768px){
+    #hero h1{
+        font-size: 3.5em;
+    }
+}
