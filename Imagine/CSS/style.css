@@ -6,9 +6,7 @@
 #menu li a{
     padding: 15px 20px;
 }
-#menu{
-    padding: 0 0 0 50%;
-}
+
 #hero h1{
     font: 700 2em Nunito,sans-serif;
     text-transform: capitalize;
@@ -31,13 +29,165 @@
     border: 1px solid #4285F4;
     transition: 250ms all;
 }
-.hero-button button:hover{
-    background: #fff;
-    color: #4285F4;
-}
+
 .hero-button{padding: 30px 0 0 0;}
+.imagine-title h2{font: 700 2em "Nunito",sans-serif;}
+.imagine-title p{font: 300 1.25em "Nunito",sans-serif;}
+#imagine-features .card{
+    padding: 40px 20px;
+    margin: 10px 10px;
+    background: #f1f1f1;
+    transition: 250ms all;
+}
+.icons-card i{
+    background: #4285F4;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    left: 40%;
+    top: -20%;
+    border-radius: 50%;
+    position: absolute;
+    transition: 250ms all;
+}
+
+.icons-card i{
+    font-size: 2em;
+    text-align: center;
+    padding: 22px 20px 10px 22px;
+}
+.icons-card  .fa-plug{padding: 22px 20px 10px 25px;}
+#imagine-features  .card h3{font: 500 1.1em "Nunito",sans-serif;}
+#imagine-features .card p{
+    font: 300 1em "Nunito",sans-serif;
+    color: gray;
+}
+#imagine-features .card a{font: 300 1em "Nunito",sans-serif;}
+
+#communicate img{width: 100%;}
+#about-us img{width: 100%;}
+#communicate p{
+    font: 400 1em "Nunito",sans-serif;
+    color: #808080;
+}
+#communicate .card{border-left: 10px solid #4285F4;}
+/* Section Backgrounds */
+#about-us{background: #F6F6F6;}
+#testimonials{background: #F6F6F6;}
+/* Section end */
+/* Section Headings  start*/
+.about-title h2{font: 700 2em "Nunito",sans-serif;}
+.our-content h2{font: 700 1.75em "Nunito",sans-serif;}
+#communicate h2{font: 700 2em "Nunito",sans-serif;}
+#our-team h2{font: 700 2em "Nunito",sans-serif;}
+#testimonials h2{font: 700 2em "Nunito",sans-serif;}
+#blog-posts h2{font: 700 2em "Nunito",sans-serif;}
+/* Section Headings end*/
+.our-btn button{
+    background: #4285F4;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.parent img{
+    width: 100%;
+    transition: 250ms all;
+}
+.our-team-title h2{font: 500 1.1em "Nunito",sans-serif;}
+#testimonials img{width: 10%;}
+#blog-posts a{
+    font: 500 1.8em "Nunito",sans-serif;
+    color: #000;
+}
+
+#contact-us{
+    background: url('../img/hero_1.jpg.webp')center/cover fixed;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.content-contact{
+    left: 0;
+    top: 2%;
+    width: 100%;
+}
+.transparent-div{
+    background: #7AE2F7;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    position: absolute;
+}
+#contact-us button{
+    background: #4285F4;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+
 @media only screen and (min-width: 768px){
     #hero h1{
         font-size: 3.5em;
+    }
+    
+    .hero-button button:hover{
+        background: #fff;
+        color: #4285F4;
+        box-shadow: 2px 3px #ccc;
+    }
+    .imagine-title h2{font-size: 2.5em;}
+    #blog-posts h2{font-size: 2.5em;}
+    .about-title h2{font-size: 2.5em;}
+
+    .card:hover .icons-card i{
+        background: #fff;
+        color: #4285F4;
+    }
+    #imagine-features .card:hover{
+        background: #4285F4;
+        color: #fff;
+    }
+    #imagine-features .card:hover p{
+        color: #fff;
+    }
+    
+    #imagine-features .card:hover a{
+        color: #fff;
+    }
+    #imagine-features .card{
+        width: 70%;
+        margin: 10px auto;
+    }
+    .our-btn button:hover{
+        background: #fff;
+        color: #4285F4;
+        box-shadow: 2px 3px #ccc;
+    }
+    #contact-us button:hover{
+        background: #fff;
+        color: #4285F4;
+        box-shadow: 2px 3px #ccc;
+    }
+    .parent:hover img{
+        scale: 1.1;
+    }
+    #communicate h2{font-size: 2.5em;}
+    #our-team h2{font-size: 2.5em;}
+    #testimonials h2{font-size: 2.5em;}
+    .content-contact{
+        left:35%;
+        width: initial;
+    }
+    .contact-form{
+        height: 80vh;   
+    }   
+    .contact-form h3{
+       padding: 20px 50px 30px 30px;
+        font: 500 1.5em "Nunito",sans-serif;
+    }
+    .input-head input{
+        margin: 0 10px 0 10px;
     }
 }
